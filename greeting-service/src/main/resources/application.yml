@@ -14,7 +14,7 @@ management:
     web:
       exposure:
         include:
-        - '*' 
+        - refresh 
 greeting-service:
   greeting: "Ola"
   default-value: "Mundo"
